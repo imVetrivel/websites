@@ -3,12 +3,176 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Resume</title>
 	<style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
 
-	</style>
+        body {	
+            /* height: 100vh; */
+            width: 100vw;
+            background-color: #f5f5f5;
+            font-family: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+			color: white;
+
+			
+
+        }
+
+        .section1 {
+            width: 70%;
+            height: 12rem;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+			background: #4B79A1;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        }
+
+        .profile-img-section {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-data {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .profile-img {
+            height: 8rem;
+            width: 8rem;
+            border-radius: 50%;
+        }
+
+        .section2 {
+            width: 70%;
+            height: 12rem;
+            /* background-color: aquamarine; */
+            border: 1px solid aquamarine;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            /* padding: 10px; */
+        }
+
+        .section3 {
+            width: 70%;
+            height: 20rem;
+            /* background-color: aquamarine; */
+            border: 1px solid aquamarine;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            /* padding: 10px; */
+        }
+
+        .section4 {
+            width: 70%;
+            height: 15rem;
+            /* background-color: aquamarine; */
+            border: 1px solid aquamarine;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            /* padding: 10px; */
+        }
+
+        .section-title {
+            /* height: 10%; */
+            color: aquamarine;
+            font-weight: bold;
+        }
+
+        .ed-table {
+            width: 100%;
+            border: 1px dotted gray;
+            border-collapse: collapse;
+        }
+
+        th,td {
+            padding: 1rem;
+            border: 1px solid gray;
+        }
+
+        .companies {
+            font-weight: bold;
+            color: aquamarine;
+        }
+    </style>
+
+
 </head>
 <body>
-	<h1>hello world</h1>
+	<div class="section1" style="color: white;">
+			<div class="profile-img-section">
+				<img class = "profile-img"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYeQjfW1Pi2gMFFSJVDV4eNJARJU4Yd089ug&s" alt="">
+			</div>
+			<div class="profile-data">
+				<h1>Vetrivel K</h1>
+				<h3>vetrivel2002.k@gmail.com</h3>
+			</div>
+	</div>
+	<div class="section2">
+		<h1 class="section-title">Objective</h1>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis quidem ratione unde tenetur soluta odit consequatur officia, nulla hic corporis fugit enim sapiente, ducimus cum!</p>
+	</div>
+	<div class="section3">
+		<h1 class="section-title">Education</h1>
+		<table class="ed-table">
+			<tr>
+				<th>Degree</th>
+				<th>Campus</th>
+				<th>Score %</th>
+			</tr>
+			<tr>
+				<td>Deg 1</td>
+				<td>School 1</td>
+				<td>80%</td>
+			</tr>
+			<tr>
+				<td>Deg 2</td>
+				<td>School 2</td>
+				<td>80%</td>
+			</tr>
+			<tr>
+				<td>Deg 3</td>
+				<td>School 3</td>
+				<td>80%</td>
+			</tr>
+
+		</table>
+	</div>
+	<div class="section4">
+		<h1 class="section-title">Internships</h1>
+	<p>Lorem ipsum dolor sit amet <span class="companies">consectetur adipisicing elit.</span> Voluptas molestiae itaque nobis id ullam impedit consequuntur. Nobis voluptas quam modi nesciunt, laboriosam quasi distinctio eum nemo maiores enim in beatae?</p>
+	</div>
+	<div class="section5">
+
+    </div>
+    <div class="section6">
+        <a href="tel:+919842266404">9889898</a>
+    </div>
 </body>
 </html>
