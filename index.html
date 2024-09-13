@@ -1,213 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
 
-        body {
-            height: 100vh;
-            width: 100vw;
-            background-color: #f5f5f5;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            align-items: center;
-        }
-
-        .section1 {
-            width: 70%;
-            height: 12rem;
-            background: #8E2DE2;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #4A00E0, #8E2DE2);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            border-radius: 5px;
-            box-shadow:
-                0.6px 1.3px 1.4px rgba(0, 0, 0, 0.014),
-                1.5px 3.2px 3.5px rgba(0, 0, 0, 0.02),
-                2.9px 6px 6.5px rgba(0, 0, 0, 0.025),
-                5.1px 10.7px 11.6px rgba(0, 0, 0, 0.03),
-                9.6px 20.1px 21.7px rgba(0, 0, 0, 0.036),
-                23px 48px 52px rgba(0, 0, 0, 0.05);
-        }
-
-        .profile-img-section {
-            width: 40%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .profile-data {
-            width: 40%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-        }
-
-        .profile-img {
-            height: 8rem;
-            width: 8rem;
-            border-radius: 50%;
-        }
-
-        .section2 {
-            width: 70%;
-            height: 6rem;
-            /* background-color: aquamarine; */
-            /* border: 1px solid aquamarine; */
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: start;
-            /* padding: 10px; */
-        }
-
-        .section3 {
-            width: 70%;
-            height: 16rem;
-            /* background-color: aquamarine; */
-            /* border: 1px solid aquamarine; */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: start;
-            /* padding: 10px; */
-        }
-
-        .section4 {
-            width: 70%;
-            height: 12rem;
-            /* background-color: aquamarine; */
-            /* border: 1px solid aquamarine; */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: start;
-            /* padding: 10px; */
-        }
-
-        .section-title {
-            /* height: 10%; */
-            font-weight: bold;
-        }
-
-        .ed-table {
-            width: 100%;
-            border: 2px solid gray;
-            border-collapse: collapse;
-        }
-
-        th {
-            background-color: #8E2DE2;
-            color: #fff;
-        }
-
-        th,
-        td {
-            padding: 1rem;
-            border: 1px solid gray;
-        }
-
-        .companies {
-            font-weight: bold;
-
-        }
-
-        .color-primary {
-            color: #8E2DE2;
-        }
-
-        .section5 {
-            width: 70%;
-            height: 10rem;
-            /* background-color: aquamarine; */
-            /* border: 1px solid aquamarine; */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: start;
-            /* padding: 10px; */
-        }
-
-        .section6 {
-            width: 70%;
-            height: 2rem;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            gap: 3rem;
-            font-weight: bold;
-
-            background: #8E2DE2;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #4A00E0, #8E2DE2);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        }
-
-        li {
-            list-style: square;
-            margin-left: 2rem;
-        }
-
-        .text-white {
-            color: white;
-        }
-    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="s[ha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
     <div class="section1">
-        <div class="profile-img-section">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrlKOj_z8pKPFjKzkJU8OZi9yiLtyQD30dIA&s"
-                alt="doggo" class="profile-img">
+        <div class="img">
+            <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9J_iBA-Lpcstg3MAtE5jLGv6PNvuUszgoHA&s" alt="">
         </div>
         <div class="profile-data">
-            <h1>
-                Vetrivel K
-            </h1>
-            <h3>
-                vetrivel2002.k@gmail.com
-            </h3>
+            <h1>Vetrivel K</h1>
+            <h3>vetrivel2002.k@gmail.com</h3>
         </div>
     </div>
     <div class="section2">
-        <h1 class="section-title color-primary">
-            Objective
-        </h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rem nesciunt, quidem veniam laudantium magnam id velit, adipisci facilis ullam vel consequatur, voluptatibus modi voluptates. Laboriosam illum atque suscipit ipsa!
-        </p>
+        <h1 class="heading">OBJECTIVE</h1>
+        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium eligendi ipsam, expedita exercitationem optio ipsum autem aspernatur minima eum! Doloribus impedit perferendis repellat exercitationem nihil ex sapiente animi reprehenderit maxime!</P>
     </div>
     <div class="section3">
-        <h1 class="section-title color-primary">
-            Education
-        </h1>
+        <h1 class="heading">Education</h1>
         <table class="ed-table">
             <tr>
                 <th>Degree</th>
@@ -231,10 +49,17 @@
             </tr>
         </table>
     </div>
+
     <div class="section4">
-        <h1 class="section-title color-primary">
+        <h1 class="heading">
             Internships
-        </h1><br>
+        </h1>
+        <p>
+            <span class="companies color-primary"> ACCOUNT MANAGER / VANARSDEL, LTD.</span> <br>
+            JUNE 20XX – PRESENT
+            Managed and grew key accounts by developing strong relationships, identifying opportunities, and
+            implementing effective sales strategies.
+        </p><br>
         <p>
             <span class="companies color-primary"> ACCOUNT MANAGER / VANARSDEL, LTD.</span> <br>
             JUNE 20XX – PRESENT
@@ -249,18 +74,29 @@
             implementing effective sales strategies.
 
         </p>
+        <br>
+        <p>
+            <span class="companies color-primary">MANAGER / VANARSDEL, LTD.</span><br>
+            JUNE 20XX – PRESENT
+            Managed and grew key accounts by developing strong relationships, identifying opportunities, and
+            implementing effective sales strategies.
+
+        </p>
     </div>
+
+
     <div class="section5">
-        <h1 class="section-title color-primary">
+        <h1 class="heading">
             Skills
-        </h1><br>
+        </h1>
         <ul>
             <li>MERN</li>
-            <li>Springboot</li>
-            <li>AWS</li>
+            <li>Java</li>
+            <li>MySQL</li>
             <li>DevOPS</li>
         </ul>
     </div>
+
     <div class="section6">
         <a href="tel:+91 9789681510">
             <i class="fa-solid fa-phone text-white"></i>
@@ -273,5 +109,4 @@
         </a>
     </div>
 </body>
-
 </html>
